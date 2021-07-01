@@ -2,6 +2,8 @@ import math
 div = 0
 num = int(input("Write your number, please:"))
 
-print(num)
+print("You number is:", num)
+
 div = num / 3
-print(round(div))
+print(div)
+print(round(div, 3))
